@@ -1,0 +1,10 @@
+[package]
+name = "p2p-orderbook-gossip"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+tokio = { version = "1", features = ["full", "signal"] }
+serde = { version = "1", features = ["derive"] }
+# libp2p = "0.53"  # habilitar para rede real

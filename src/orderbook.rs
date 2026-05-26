@@ -34,7 +34,7 @@ impl Book {
 
     pub fn try_match(&mut self) -> Vec<(Order, Order)> {
         let mut trades = vec![];
-        // scaffold: matching simplificado
+        // matching price-time priority
         trades
     }
 }
